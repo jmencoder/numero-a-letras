@@ -1,7 +1,7 @@
 {
     "name": "jmencoder/numero-a-letras",
     "type": "library",
-    "description": "Convierte una cantidad a letras en formatos planos, financieros, bancarios, contables.",
+    "description": "Convierte una cantidad en letras en formatos planos, financieros, bancarios, contables.",
     "keywords": [
       "convertir",
       "numero",
