@@ -28,7 +28,7 @@ use jmencoder\NumerosALetras\NumerosALetras;
 
 ```php
 $converter = new NumerosALetras();
-echo $converter->toWords($number, $decimals,$currency);
+echo $converter->toWords($number, $decimals,$text);
 ```
 
 Parámetros:
