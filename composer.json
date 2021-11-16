@@ -1,0 +1,29 @@
+{
+    "name": "jmencoder/numero-a-letras",
+    "type": "library",
+    "description": "Convierte un n\u0000mero a letras en formatos planos, financieros, bancarios, contables.",
+    "keywords": [
+      "convertir",
+      "numero",
+      "letras",
+      "facturación",
+      "SAT",
+      "DEI"
+    ],
+    "homepage": "https://github.com/jmencoder/numero-a-letras",
+    "authors": [
+        {
+            "name": "Jean Michael",
+            "homepage": "https://github.com/jmencoder/numero-a-letras"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": "^7.2|^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "jmencoder\\NumerosALetras\\": "src/"
+      }
+    }
+}
