@@ -11,6 +11,7 @@
       "DEI"
     ],
     "homepage": "https://github.com/jmencoder/numero-a-letras",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jean Michael",
