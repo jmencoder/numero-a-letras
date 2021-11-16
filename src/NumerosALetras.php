@@ -97,7 +97,7 @@ class NumerosALetras
      *
      * @return string
      */
-    public function ToWords($number, $decimals = 2, $currency = '')
+    public function ToWords($number, $decimals = 2, $text = '')
     {
         $this->checksuppress();
 
@@ -107,9 +107,9 @@ class NumerosALetras
             return;
         }
 
-        if (!empty($currency))
+        if (!empty($text))
         {
-            return $this->toString($number, $decimals, $currency);
+            return $this->toString($number, $decimals, $text);
         }
 
         $number = number_format($number, $decimals, '.', '');
