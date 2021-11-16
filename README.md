@@ -111,6 +111,15 @@ echo $converter->toInvoice(1200.50, 2, 'dolares');
 //MIL DOSCIENTOS CON 50/100 DOLARES
 ```
 
+```php
+$converter = new NumerosALetras();
+$converter->currencyPosition = 'after';
+$converter->anexar = 'Y';
+echo $converter->toInvoice(1200.50, 2, 'dolares');
+
+//MIL DOSCIENTOS Y 50/100 DOLARES
+```
+
 ## Licencia
 
 Software de código abierto con licencia [MIT license](LICENSE).
